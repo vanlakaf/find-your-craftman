@@ -13,8 +13,8 @@ attente de l'API (couche service prête pour la bascule).
 
 ## Lancement (3 terminaux)
     npm run mail        # serveur mail local — interface : http://localhost:1080
-    npm run api:local   # API de contact locale (port 3001) -> envoie via MailDev
-    npm run dev         # application : http://localhost:5173
+    npm run api:local   # API de contact locale (port 6002) -> envoie via MailDev
+    npm run dev         # application : http://localhost:6001
 
 ## Build production
     npm run build && npm run preview
@@ -24,10 +24,7 @@ attente de l'API (couche service prête pour la bascule).
 - src/components/ : Header, Footer, cartes, formulaire
 - src/pages/ : Accueil, Liste, Fiche artisan, 404, pages légales (vides)
 - public/ : assets, en-têtes de sécurité (Netlify)
-- docs/ : plan d'exécution, spécification Figma, captures des maquettes
-
-## Maquettes
-docs/PHASE1-FIGMA.md et captures dans docs/maquettes/.
+- docs/ : plan d'exécution, identité visuelle.
 
 ## Note assets
 Les fichiers SVG de public/ sont des placeholders de démonstration.

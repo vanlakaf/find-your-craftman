@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./contact-form.scss";
 
-// URL de l'API : serveur local (maildev) en dev, API finale en production
+// URL de l'API : serveur local (maildev) en dev
 const API_URL =
-  import.meta.env.VITE_API_URL ?? "http://localhost:3001/api/contact";
+  import.meta.env.VITE_API_URL ?? "http://localhost:6001/api/contact";
 
 const INITIAL = { nom: "", objet: "", message: "", societe: "" }; // « societe » = honeypot
 

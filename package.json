@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 6001",
     "build": "vite build",
     "preview": "vite preview",
     "mail": "maildev --smtp 1025 --web 1080",
-    "api:local": "node server/index.mjs"
+    "api:local": "PORT=6002 node server/index.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
