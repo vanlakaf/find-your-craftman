@@ -1,0 +1,50 @@
+@use "../styles/variables" as v;
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 560px;
+}
+.contact-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    color: v.$color-primary-dark;
+  }
+  input,
+  textarea {
+    padding: 12px;
+    border: 1px solid v.$color-border;
+    border-radius: v.$radius-btn;
+    font: inherit;
+    color: v.$color-text;
+    &:focus {
+      border-color: v.$color-primary;
+      outline: 2px solid v.$color-primary;
+      outline-offset: 1px;
+    }
+  }
+}
+
+.contact-form__honeypot {
+  position: absolute;
+  left: -9999px;
+}
+
+.contact-form__success {
+  border: 1px solid v.$color-success;
+  background: rgba(130, 184, 100, 0.15);
+  color: v.$color-primary-dark;
+  padding: 16px;
+  border-radius: v.$radius-btn;
+}
+.contact-form__error {
+  border: 1px solid v.$color-error;
+  color: v.$color-error;
+  padding: 16px;
+  border-radius: v.$radius-btn;
+}

@@ -1,0 +1,62 @@
+@use "../styles/variables" as v;
+
+.hero {
+  background: v.$color-primary-dark;
+  color: v.$color-white;
+  padding: 64px 0;
+  @media (min-width: v.$bp-desktop) {
+    padding: 96px 0;
+  }
+  h1 {
+    color: v.$color-white;
+    font-size: 32px;
+    @media (min-width: v.$bp-desktop) {
+      font-size: 40px;
+    }
+  }
+  p {
+    max-width: 480px;
+  }
+}
+
+.steps {
+  padding: 48px 0;
+}
+.steps__list {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  @media (min-width: v.$bp-desktop) {
+    flex-direction: row;
+  }
+}
+.steps__item {
+  flex: 1;
+  background: v.$color-bg;
+  border-radius: v.$radius-card;
+  padding: 24px;
+  h3,
+  p {
+    margin: 8px 0 0;
+  }
+}
+.steps__number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: v.$color-primary;
+  color: v.$color-white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.highlight {
+  background: v.$color-bg;
+  padding: 48px 0 64px;
+}

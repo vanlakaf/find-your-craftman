@@ -1,0 +1,37 @@
+@use "../styles/variables" as v;
+
+.cat-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.cat-nav__chip {
+  padding: 8px 16px;
+  border: 1px solid v.$color-border;
+  border-radius: 999px;
+  color: v.$color-text;
+  text-decoration: none;
+  font-weight: 500;
+  &:hover {
+    border-color: v.$color-primary;
+    color: v.$color-primary;
+  }
+}
+.cat-nav__chip--active {
+  background: v.$color-primary;
+  border-color: v.$color-primary;
+  color: v.$color-white;
+  &:hover {
+    color: v.$color-white;
+  }
+}
+
+.artisan-list__count {
+  font-size: 14px;
+  color: v.$color-primary-dark;
+}
+.artisan-list__empty {
+  text-align: center;
+  padding: 64px 0;
+}

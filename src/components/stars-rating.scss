@@ -1,0 +1,14 @@
+@use "../styles/variables" as v;
+
+.stars {
+  display: inline-flex;
+  gap: 2px;
+  font-size: 20px;
+  line-height: 1;
+}
+.star {
+  color: v.$color-star-empty;
+}
+.star--full {
+  color: v.$color-primary;
+}

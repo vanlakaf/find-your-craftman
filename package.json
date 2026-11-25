@@ -1,0 +1,26 @@
+{
+  "name": "trouve-ton-artisan",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "mail": "maildev --smtp 1025 --web 1080",
+    "api:local": "node server/index.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "express": "^4.19.2",
+    "maildev": "^2.1.0",
+    "nodemailer": "^6.9.14",
+    "sass": "^1.77.8",
+    "vite": "^5.4.8"
+  }
+}

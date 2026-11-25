@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Menuiserie Duval",
+    "specialty": "Menuisier",
+    "category": "batiment",
+    "location": "Lyon",
+    "note": 4.5,
+    "about": "Atelier familial depuis 1987, spécialisé en menuseries sur mesure : portes, fenêtres et agencements en bois massif.",
+    "website": "https://menuiserie-duval.example.fr",
+    "email": "contact@menuiserie-duval.example.fr",
+    "highlight": true
+  },
+  {
+    "id": 2,
+    "name": "Plomberie Rhône Services",
+    "specialty": "Plombier",
+    "category": "batiment",
+    "location": "Villeurbanne",
+    "note": 4.0,
+    "about": "Dépannage et installation sanitaire, chauffage et robinetterie pour particuliers.",
+    "website": null,
+    "email": "contact@plomberie-rhone.example.fr",
+    "highlight": false
+  },
+  {
+    "id": 3,
+    "name": "Élec & Lumière Sud",
+    "specialty": "Électricien",
+    "category": "batiment",
+    "location": "Clermont-Ferrand",
+    "note": 3.8,
+    "about": "Installations électriques domestiques, mise aux normes et domotique.",
+    "website": null,
+    "email": "contact@elec-lumiere.example.fr",
+    "highlight": false
+  },
+  {
+    "id": 4,
+    "name": "Toit & Faîtage",
+    "specialty": "Couvreur",
+    "category": "batiment",
+    "location": "Grenoble",
+    "note": 4.2,
+    "about": "Rénovation de toitures tuiles et ardoises, zinguerie et gouttières.",
+    "website": "https://toit-faitage.example.fr",
+    "email": "contact@toit-faitage.example.fr",
+    "highlight": false
+  },
+  {
+    "id": 5,
+    "name": "Institut Beauté Sérénité",
+    "specialty": "Esthéticienne",
+    "category": "services",
+    "location": "Lyon",
+    "note": 4.7,
+    "about": "Soins du visage et du corps, épilation et modelage relaxant sur rendez-vous.",
+    "website": "https://beaute-serenite.example.fr",
+    "email": "contact@beaute-serenite.example.fr",
+    "highlight": true
+  },
+  {
+    "id": 6,
+    "name": "Taxi des Monts",
+    "specialty": "Transporteur",
+    "category": "services",
+    "location": "Annecy",
+    "note": 4.1,
+    "about": "Transport de personnes et de marchandises en vallée, 7j/7.",
+    "website": null,
+    "email": "contact@taxi-des-monts.example.fr",
+    "highlight": false
+  },
+  {
+    "id": 7,
+    "name": "Art & Fer",
+    "specialty": "Ferronnier d'art",
+    "category": "fabrication",
+    "location": "Saint-Étienne",
+    "note": 4.4,
+    "about": "Création de garde-corps, portails et mobilier en fer forgé sur mesure.",
+    "website": "https://art-et-fer.example.fr",
+    "email": "contact@art-et-fer.example.fr",
+    "highlight": true
+  },
+  {
+    "id": 8,
+    "name": "Terre & Feu",
+    "specialty": "Céramiste",
+    "category": "fabrication",
+    "location": "Voiron",
+    "note": 4.6,
+    "about": "Vaisselle et objets décoratifs en grès émaillé, tournés à la main.",
+    "website": "https://terre-et-feu.example.fr",
+    "email": "contact@terre-et-feu.example.fr",
+    "highlight": false
+  },
+  {
+    "id": 9,
+    "name": "Le Fournil d'Aurélien",
+    "specialty": "Boulanger",
+    "category": "alimentation",
+    "location": "Clermont-Ferrand",
+    "note": 4.8,
+    "about": "Pains au levain naturel, viennoiseries pur beurre et pains spéciaux bio.",
+    "website": "https://fournil-aurelien.example.fr",
+    "email": "contact@fournil-aurelien.example.fr",
+    "highlight": false
+  },
+  {
+    "id": 10,
+    "name": "Chocolaterie Cacaoti",
+    "specialty": "Chocolatier",
+    "category": "alimentation",
+    "location": "Lyon",
+    "note": 4.3,
+    "about": "Tablettes et bonbons de chocolat issus de cacaos d'origine, fabrication artisanale.",
+    "website": null,
+    "email": "contact@cacaoti.example.fr",
+    "highlight": false
+  }
+]

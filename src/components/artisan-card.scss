@@ -1,0 +1,39 @@
+@use "../styles/variables" as v;
+
+.artisan-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  background: v.$color-white;
+  border: 1px solid v.$color-border;
+  border-radius: v.$radius-card;
+  padding: 24px;
+  text-decoration: none;
+  color: v.$color-text;
+  &:hover {
+    border-color: v.$color-primary;
+    box-shadow: 0 2px 8px rgba(0, 73, 124, 0.08);
+  }
+}
+
+.artisan-card__name {
+  margin: 0;
+  font-size: 18px;
+  color: v.$color-primary-dark;
+}
+.artisan-card__specialty {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.artisan-card__location {
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  svg {
+    color: v.$color-primary;
+  }
+}

@@ -1,0 +1,94 @@
+@use "../styles/variables" as v;
+
+.header {
+  background: v.$color-white;
+  border-bottom: 1px solid v.$color-border;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+}
+.header__logo img {
+  width: 48px;
+  height: auto;
+}
+
+.header__panel {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0 24px;
+}
+.header--open .header__panel {
+  display: flex;
+}
+
+.header__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.header__link {
+  display: block;
+  padding: 10px 0;
+  color: v.$color-text;
+  font-weight: 500;
+  text-decoration: none;
+  &:hover,
+  &.active {
+    color: v.$color-primary;
+  }
+}
+
+.header__search {
+  display: flex;
+  gap: 8px;
+  input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 12px;
+    border: 1px solid v.$color-border;
+    border-radius: v.$radius-btn;
+    font: inherit;
+  }
+}
+
+.header__burger {
+  background: none;
+  border: 1px solid v.$color-primary;
+  color: v.$color-primary;
+  border-radius: v.$radius-btn;
+  padding: 10px 16px;
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (min-width: v.$bp-desktop) {
+  .header__inner {
+    min-height: 88px;
+  }
+  .header__burger {
+    display: none;
+  }
+  .header__panel {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+  .header__links {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .header__search {
+    max-width: 320px;
+  }
+}
